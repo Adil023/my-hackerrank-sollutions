@@ -1,20 +1,17 @@
+import java.math.BigInteger;
 import java.util.Scanner;
 
 public class FindDigits {
-    public int findDigits(int n) {
+    public static void main(String[] args) {
 
-        int original = n;
-        int sum = 0;
+        System.out.println(extraLongFactorials(5));
+    }
 
-        while(n > 0){
-            int digit = n % 10;
-            if(digit != 0 && original % digit == 0) {
-                sum++;
-            }
-            n = n / 10;
+    public static BigInteger extraLongFactorials(int n) {
+
+        if(n==0){
+            return BigInteger.ONE;
         }
-
-        return sum;
-
+        return BigInteger.valueOf(n).multiply(extraLongFactorials(n-1));
     }
 }
