@@ -1,3 +1,5 @@
+package LeetcodeSollutions;
+
 class Solution {
     public int[] sortArrayByParity(int[] nums) {
         int i = 0; // 1

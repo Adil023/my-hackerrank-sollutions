@@ -1,6 +1,8 @@
+package LeetcodeSollutions;
+
 import java.math.BigInteger;
 
-public class Factorial {
+public class FindDigits {
     public static void main(String[] args) {
 
         System.out.println(extraLongFactorials(5));

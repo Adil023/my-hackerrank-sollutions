@@ -1,3 +1,5 @@
+package LeetcodeSollutions;
+
 public class TwoSum {
 
     public static String twoSum(int[] arr, int target) {

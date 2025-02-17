@@ -1,3 +1,5 @@
+package LeetcodeSollutions;
+
 public class DeleteDuplicates {
     public ListNode deleteDuplicates(ListNode head) {
          if(head == null || head.next ==null) return head;

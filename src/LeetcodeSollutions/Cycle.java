@@ -1,3 +1,5 @@
+package LeetcodeSollutions;
+
 public class Cycle {
     public boolean hasCycle(ListNode head) {
         ListNode slow = head;

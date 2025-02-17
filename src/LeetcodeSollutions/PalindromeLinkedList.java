@@ -1,3 +1,5 @@
+package LeetcodeSollutions;
+
 class Solution {
     public boolean isPalindrome(ListNode head) {
         ListNode fast = head;

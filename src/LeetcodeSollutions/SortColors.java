@@ -1,3 +1,5 @@
+package LeetcodeSollutions;
+
 public class SortColors {
 
     public  void sortColors(int[] colors) {

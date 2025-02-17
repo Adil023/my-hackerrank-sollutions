@@ -1,3 +1,5 @@
+package LeetcodeSollutions;
+
 public class Solution {
 
     public static int getLength(ListNode node){

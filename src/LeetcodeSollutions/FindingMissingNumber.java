@@ -1,3 +1,5 @@
+package LeetcodeSollutions;
+
 public class FindingMissingNumber {
 
 
